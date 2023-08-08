@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>შოთიკო ბეროშვილის პერსონალური საიტი</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section id="top"></section>
+    <header>
+        <div class="profile-wrapper">
+            <div class="profile-pic">
+                <img src="img/me.png" alt="შოთიკო">
+            </div>
+            
+            <div class="profile-text">
+                <h1>შოთიკო ბეროშვილის</h1>
+                <p><strong>მოსწავლე</strong></p>
+                <p><strong>Web ტექნოლოგიების მოყვარული</strong></p>
+            </div>
+                
+            
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#goal">მიზანი</a></li>
+                <li><a href="#education">განათლება</a></li>
+                <li><a href="#skills">უნარები</a></li>
+                <li><a href="#languages">ენები</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <!-- <section id="top"></section> -->
+        <section id="goal">
+            <h2>მიზანი</h2>
+            <hr>
+            <p>ვარ Web ტექნოლოგიების მოყვარული ცოტა გამოცდილებით. ვფლობ ცოდნას და პრაქტიკული გამოცდილებას front-end და back-end პროგრამირების მიმართულებით. ვეძებ შესაძლებლობას შემდგომი განვითარებისათვის და ახალ პროექტებში ჩემი გამოცდილების გამოყენებისათვის. </p>
+
+           
+         <hr>
+
+        <section id="education">
+            <h2>განათლება</h2>
+            <hr>
+            <p>
+                <strong>სკოლა</strong> - სსიპ გურჯაანის მუნიციპალიტეტის სოფელ გურჯაანის საჯარო სკოლა
+            </p>
+           
+             </hr>
+        </section>
+
+        <section id="skills">
+            <!-- უნარჩვევები -->
+            <h2>უნარები</h2>
+            <hr>
+            <ul>
+                <li>ფლობა HTML, CSS, Python</li>
+                <li>მონაცემთა ბაზების ცოდნა (p)</li>
+                <li>პროგრამირების ენების ცოდნა (Python, C/C++, JS)</li>
+                <li>ოპერაციული სისტემების ცოდნა ( Windows)</li>
+                
+            </ul>
+            <hr>
+        </section>
+
+        <section id="languages">
+            <h2>ენები</h2>
+
+            <p><strong>ქართული</strong> - მშობლიური</p>
+            <p><strong>ინგლისური</strong> - თავისუფლად</p>
+            <p><strong>რუსული</strong> - საშუალო</p>
+            <p><strong>ფრანგული</strong> - თავისუფლად</p>
+
+    </main>
+
+    <footer>
+        <!-- Здесь может быть информация об авторских правах, ссылки на социальные сети и т. д. -->
+        <section class = "contact-wrapper">
+        
+            <p>გურჯაანი, საქართველო</p>
+            <p>გამსახურდიას ქ. № 16</p>
+            <p>ტელეფონი: +995 599 326 577</p>
+            <p>E-Mail: shoto0191@gmail.com</p>
+        </section>
+    </footer>
+    <a href="#top" id="back-to-top">&#9650;</a>
+
+    <script>
+        // Скрипт для отображения и скрытия кнопки "наверх"
+        window.addEventListener('scroll', function() {
+            var button = document.getElementById('back-to-top');
+            if (window.scrollY > 200) {
+                button.style.display = 'block';
+            } else {
+                button.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+
+</html>
